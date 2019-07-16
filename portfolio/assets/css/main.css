@@ -102,7 +102,8 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Open Sans', sans-serif;
+		/* font-family: 'Open Sans', sans-serif; */
+		font-family: 'Trebuchet MS', monospace;
 		line-height: 1.85em;
 		color: #888;
 		font-weight: 300;
@@ -1999,7 +2000,8 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
-			background-color: #303030;
+			/* background-color: #303030; */
+			background-color: #888888; 
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
 		}
@@ -2013,20 +2015,22 @@ input, select, textarea {
 			.wrapper.style4 form select,
 			.wrapper.style4 form textarea {
 				border: none;
-				background: #282828;
+				/* background: #282828; */
 			}
 
 				.wrapper.style4 form input[type=text]:focus,
 				.wrapper.style4 form input[type=password]:focus,
 				.wrapper.style4 form select:focus,
 				.wrapper.style4 form textarea:focus {
-					background: #252525;
+					/* background: #252525; */
+					background: #EA8A95;
 				}
 
 /* Nav */
 
 	#nav {
-		background-color: #282828;
+		/* background-color: #282828; */
+		background-color: #EA8A95;
 		text-align: center;
 		position: fixed;
 		left: 0;
